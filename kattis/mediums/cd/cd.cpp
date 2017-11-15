@@ -44,10 +44,10 @@ void reset() {
     }
 }
 void put(int p) {
-    a[p/8] = (1 << (p%8)) | a[p/8];
+    a[p/32] = (1 << (p%32)) | a[p/32];
 }
 bool get(int p) {
-    return (a[p/8] >> (p%8)) & 1;
+    return (a[p/32] >> (p%32)) & 1;
 }
 
 int main() {
