@@ -27,7 +27,6 @@ Sample Input 1	Sample Output 1
 
 #define UPPER_BOUND 100000000
 #define MAX 50000001
-#define SQRT 10002
 
 long long n, q, counts, i, j;
 char isPrime[MAX];
